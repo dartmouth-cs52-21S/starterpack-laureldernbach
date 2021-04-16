@@ -1,13 +1,5 @@
-# Title
+# SA3: Starterpack
+## Laurel Dernbach
+## CS52 21S
 
-*description*
-
-[deployed url](http://url-if-deployed-here)
-
-## What Worked Well
-
-## What Didn't
-
-## Extra Credit
-
-## Screenshots
+(deployed url)[https://pensive-kepler-cb927e.netlify.app/]
