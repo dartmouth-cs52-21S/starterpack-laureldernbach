@@ -1,4 +1,4 @@
-# SA3: Starterpack
+# SA2: Starterpack
 ## Laurel Dernbach
 ## CS52 21S
 
