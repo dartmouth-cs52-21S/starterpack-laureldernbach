@@ -34,6 +34,7 @@ const App = (props) => {
           <Route exact path="/" component={Welcome} />
           <Route path="/about" component={About} />
           <Route exact path="/test/:id" component={Test} />
+          <Route path="/hello" component={About} />
           <Route component={FallBack} />
         </Switch>
       </div>
@@ -47,6 +48,7 @@ const Nav = (props) => {
       <ul>
         <li><NavLink to="/" exact>Home</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
+        <li><NavLink to="/hello">Hello!</NavLink></li>
         <li><NavLink to="/test/id1">test id1</NavLink></li>
         <li><NavLink to="/test/id2">test id2</NavLink></li>
       </ul>
