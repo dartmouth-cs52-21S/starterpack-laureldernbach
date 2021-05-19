@@ -8,6 +8,19 @@ TODO: short project description, some sample screenshots or mockups
 ## Architecture
 
 TODO:  descriptions of code organization and tools and libraries used
+### Directories:
+* src
+    * actions
+    * components
+    * reducers
+    * img
+
+### Additional tools/libraries used:
+* Webpack
+* babel
+* React-redux
+* WE CAN ADD MORE LATER
+    
 
 ## Setup
 
@@ -24,7 +37,7 @@ TODO: how to deploy the project
 * Blake Danziger
 * [Laurel Dernbach](http://laureldernbach.me/)
 * Hamza Kasumba
-* Isaac Spokes
+* [Isaac Spokes](https://github.com/isaacspokes)
 
 ## Acknowledgments
 
