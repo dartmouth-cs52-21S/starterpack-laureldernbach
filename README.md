@@ -34,7 +34,7 @@ TODO: how to deploy the project
 
 * Zachary Campbell
 * Bennet Clark
-* Blake Danziger
+* [Blake Danziger](https://github.com/bdanziger3)
 * [Laurel Dernbach](http://laureldernbach.me/)
 * Hamza Kasumba
 * [Isaac Spokes](https://github.com/isaacspokes)
