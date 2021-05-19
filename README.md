@@ -1,7 +1,6 @@
 # Project Name
 
 ![Team Photo](Insert a Team Photo URL here)
-[*how?*](https://help.github.com/articles/about-readmes/#relative-links-and-image-paths-in-readme-files)
 
 TODO: short project description, some sample screenshots or mockups
 
@@ -19,6 +18,13 @@ TODO: how to deploy the project
 
 ## Authors
 
-TODO: list of authors
+* Zachary Campbell
+* Bennet Clark
+* Blake Danziger
+* [Laurel Dernbach](www.laureldernbach.me)
+* Hamza Kasumba
+* Isaac Spokes
 
 ## Acknowledgments
+
+Starter pack for this code pulled from (Laurel's starter pack repo)[https://github.com/dartmouth-cs52-21S/starterpack-laureldernbach], built up through various short assignments in class
