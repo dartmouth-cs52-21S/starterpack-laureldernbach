@@ -7,7 +7,7 @@ import HellosReducer from './hellos-reducer';
 
 const rootReducer = combineReducers({
   count: CountReducer,
-  hello: HellosReducer,
+  hellos: HellosReducer,
 });
 
 export default rootReducer;
