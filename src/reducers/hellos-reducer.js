@@ -7,7 +7,7 @@ const initialState = {
 
 const HellosReducer = (state = initialState, action) => {
   switch (action.type) {
-    case ActionTypes.FETCH_HELLO:
+    case ActionTypes.FETCH_HELLOS:
       return { ...state, all: action.payload };
     case ActionTypes.SAY_HELLO:
       return { ...state, current: action.payload };

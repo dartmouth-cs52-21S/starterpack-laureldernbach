@@ -9,7 +9,7 @@ export const ActionTypes = {
   FETCH_SONGS: 'FETCH_SONGS',
   FETCH_SONG: 'FETCH_SONG',
   SAY_HELLO: 'SAY_HELLO',
-  FETCH_HELLO: 'FETCH_HELLO',
+  FETCH_HELLOS: 'FETCH_HELLOS',
   INCREMENT: 'INCREMENT',
   DECREMENT: 'DECREMENT',
 };
@@ -63,7 +63,7 @@ export function fetchHellos() {
     axios.get(`${ROOT_URL}/hello${API_KEY}`)
       .then((response) => {
         dispatch({
-          type: ActionTypes.FETCH_HELLO,
+          type: ActionTypes.FETCH_HELLOS,
           payload: response.data,
         });
       })
