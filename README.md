@@ -1,7 +1,7 @@
 # Synesthesia
 ## Dartmouth College CS52 21S Final Project
 
-![Team Photo](https://imgur.com/a/wxozLic)
+![Team Photo](https://imgur.com/UeHcQE6)
 
 TODO: short project description, some sample screenshots or mockups
 
