@@ -1,4 +1,5 @@
-# Project Name
+# Synesthesia
+## Dartmouth College CS52 21S Final Project
 
 ![Team Photo](Insert a Team Photo URL here)
 
@@ -21,7 +22,7 @@ TODO: how to deploy the project
 * Zachary Campbell
 * Bennet Clark
 * Blake Danziger
-* [Laurel Dernbach](www.laureldernbach.me)
+* [Laurel Dernbach](http://laureldernbach.me/)
 * Hamza Kasumba
 * Isaac Spokes
 
