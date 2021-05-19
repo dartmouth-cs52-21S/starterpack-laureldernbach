@@ -8,6 +8,8 @@ const API_KEY = '?key=isaac_spokes';
 export const ActionTypes = {
   FETCH_SONGS: 'FETCH_SONGS',
   FETCH_SONG: 'FETCH_SONG',
+  SAY_HELLO: 'SAY_HELLO',
+  FETCH_HELLO: 'FETCH_HELLO',
   INCREMENT: 'INCREMENT',
   DECREMENT: 'DECREMENT',
 };
@@ -37,6 +39,33 @@ export function fetchSong(id) {
         });
         console.log('LOGGING SONG AT FETCH SONG');
         console.log(response.data[0]);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+}
+
+export function sayHello(text, history) {
+  return (dispatch) => {
+    axios.post(`${ROOT_URL}/hello`, text)
+      .then(() => {
+        history.push('/');
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  };
+}
+
+export function fetchHellos() {
+  return (dispatch) => {
+    axios.get(`${ROOT_URL}/hello${API_KEY}`)
+      .then((response) => {
+        dispatch({
+          type: ActionTypes.FETCH_HELLO,
+          payload: response.data,
+        });
       })
       .catch((error) => {
         console.log(error);
