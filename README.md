@@ -32,11 +32,11 @@ TODO: how to deploy the project
 
 ## Authors
 
-* Zachary Campbell
+* [Zachary Campbell](http://zachcampbell.me)
 * [Bennett Clark](https://github.com/bennettc)
-* Blake Danziger
+* [Blake Danziger](https://github.com/bdanziger3)
 * [Laurel Dernbach](http://laureldernbach.me/)
-* Hamza Kasumba
+* [Hamza Kasumba](https://github.com/HamzaMusana)
 * [Isaac Spokes](https://github.com/isaacspokes)
 
 ## Acknowledgments
