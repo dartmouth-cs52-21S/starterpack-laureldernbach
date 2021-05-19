@@ -36,7 +36,7 @@ TODO: how to deploy the project
 * Bennet Clark
 * [Blake Danziger](https://github.com/bdanziger3)
 * [Laurel Dernbach](http://laureldernbach.me/)
-* Hamza Kasumba
+* [Hamza Kasumba](https://github.com/HamzaMusana)
 * [Isaac Spokes](https://github.com/isaacspokes)
 
 ## Acknowledgments
