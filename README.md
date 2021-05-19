@@ -32,7 +32,7 @@ TODO: how to deploy the project
 
 ## Authors
 
-* Zachary Campbell
+* [Zachary Campbell](http://zachcampbell.me)
 * Bennet Clark
 * Blake Danziger
 * [Laurel Dernbach](http://laureldernbach.me/)
