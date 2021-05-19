@@ -28,4 +28,4 @@ TODO: how to deploy the project
 
 ## Acknowledgments
 
-Starter pack for this code pulled from (Laurel's starter pack repo)[https://github.com/dartmouth-cs52-21S/starterpack-laureldernbach], built up through various short assignments in class
+Starter pack for this code pulled from [Laurel's starter pack repo](https://github.com/dartmouth-cs52-21S/starterpack-laureldernbach), built up through various short assignments in class
