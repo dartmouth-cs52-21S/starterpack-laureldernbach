@@ -28,7 +28,6 @@ class Hellos extends Component {
 
   newHello = (event) => {
     this.setState({ text: event.target.value });
-    console.log(this.state.post);
   }
 
   render() {
@@ -41,7 +40,7 @@ class Hellos extends Component {
       // console.log(post);
       return (
         <div id="helloDisplay">
-          <p>{hello.content}</p>
+          <p>{hello.text}</p>
         </div>
       );
     });
