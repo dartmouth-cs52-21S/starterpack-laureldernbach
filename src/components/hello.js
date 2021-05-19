@@ -9,6 +9,7 @@ class Hellos extends Component {
   }
 
   render() {
+    console.log(this.props.hellos);
     if (!this.props.hellos) {
       return (<div>loading...</div>);
     } else {
