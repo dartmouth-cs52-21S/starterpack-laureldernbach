@@ -31,7 +31,8 @@ TODO: how to get the project dev environment up and running, npm install etc
 
 * Clone both the (frontend)[https://github.com/dartmouth-cs52-21S/project-synesthesia] and (backend)[https://github.com/dartmouth-cs52-21S/project-api-synesthesia] repositories
 * run `npm install webpack` in the terminal
-* run `npm start` in both repositories
+* for Mac OS, run `npm start` in both repositories
+* for Windows OS, run `npm start-windows` in both repositories
 
 ## Deployment
 TODO: how to deploy the project
