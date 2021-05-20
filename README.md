@@ -7,13 +7,17 @@ TODO: short project description, some sample screenshots or mockups
 
 ## Architecture
 
-TODO:  descriptions of code organization and tools and libraries used
 ### Directories:
 * src
     * actions
+        * Actions for project. Currently only SAY_HELLO and FETCH_HELLOS are functional (rest are scaffolds)
     * components
+        * an app functional component with references to other functional components
+        * the hello component which is a full React redux-connected Component 
     * reducers
+        * reducer for the actions for Hello, and deprecated count reducer.
     * img
+        * Nothing useful yet
 
 ### Additional tools/libraries used:
 * Webpack
@@ -23,12 +27,18 @@ TODO:  descriptions of code organization and tools and libraries used
     
 
 ## Setup
-
 TODO: how to get the project dev environment up and running, npm install etc
 
-## Deployment
+* Clone both the (frontend)[https://github.com/dartmouth-cs52-21S/project-synesthesia] and (backend)[https://github.com/dartmouth-cs52-21S/project-api-synesthesia] repositories
+* run `npm install webpack` in the terminal
+* run `npm start` in both repositories
 
+## Deployment
 TODO: how to deploy the project
+(Not deployed yet. Once we deploy this will be useful)
+
+* Once any changes are made, push to your current branch
+* Make a PR, once merged into main the netlify will redeploy!
 
 ## Authors
 
