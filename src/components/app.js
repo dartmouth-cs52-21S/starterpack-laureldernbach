@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 // eslint-disable-next-line object-curly-newline
 import { BrowserRouter as Router, Route, Switch, NavLink } from 'react-router-dom';
@@ -31,7 +32,7 @@ const App = (props) => {
     <Router>
       <div>
         <Nav />
-        <iframe title="song-player" src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media" />
+        <iframe id="media-player" title="song-player" src="https://open.spotify.com/embed/track/2YpeDb67231RjR0MgVLzsG" width="300" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media" />
         <Switch>
           <Route exact path="/" component={Welcome} />
           <Route path="/about" component={About} />
