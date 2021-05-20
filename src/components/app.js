@@ -31,6 +31,7 @@ const App = (props) => {
     <Router>
       <div>
         <Nav />
+        <iframe title="song-player" src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="80" frameBorder="0" allowtransparency="true" allow="encrypted-media" />
         <Switch>
           <Route exact path="/" component={Welcome} />
           <Route path="/about" component={About} />
