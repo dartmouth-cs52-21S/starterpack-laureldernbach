@@ -6,12 +6,12 @@ import Controls from '../control';
 import Hellos from './hello';
 
 const About = (props) => {
-  return <div> All there is to know about me </div>;
+  return <div> Bringing together the experience of listening to discovering new music with creativity, color, and visual appeal! </div>;
 };
 
 const Welcome = (props) => {
   return (
-    <div>Welcome
+    <div>Welcome to Synesthesia!
       <Counter />
       <Controls />
     </div>
@@ -50,8 +50,6 @@ const Nav = (props) => {
         <li><NavLink to="/" exact>Home</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
         <li><NavLink to="/hello">Hello!</NavLink></li>
-        <li><NavLink to="/test/id1">test id1</NavLink></li>
-        <li><NavLink to="/test/id2">test id2</NavLink></li>
       </ul>
     </nav>
   );
