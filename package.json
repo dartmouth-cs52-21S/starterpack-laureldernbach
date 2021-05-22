@@ -5,6 +5,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "NODE_ENV=development webpack serve",
+    "start-windows": "SET NODE_ENV=development& webpack serve",
     "test": "eslint src",
     "build": "npm run clean; NODE_ENV=production webpack --color; cp -f _redirects dist/",
     "winbuild": "npm run clean & SET NODE_ENV=production& webpack --color",
@@ -52,7 +53,6 @@
     "axios": "^0.21.1",
     "jquery": "^3.6.0",
     "lodash.debounce": "^4.0.8",
-    "material-ui": "^0.20.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
